@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 0 !important;
+}
+:root{
+  --color: #1d99d3;
+  --clickColor:#1a88ba;
+  --marginB: 20px;
+  --bgcBoxColor: rgba(255, 255, 255, 0.694);
+}
