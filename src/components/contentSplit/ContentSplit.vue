@@ -28,7 +28,7 @@ const props = defineProps({
   height: 20px;
   /* background-color: #000; */
   box-sizing: border-box;
-  border-left: 4px solid var(--color);
+  border-left: 4px solid black;
   display: flex;
   align-items: center;
   margin-bottom: 10px;
@@ -37,7 +37,7 @@ const props = defineProps({
   color: #0099FF;
 }
 .split_text{
-  color: var(--color);
+  color: black;
   font-size: 18px;
   text-indent: 8px;
   display: flex;
@@ -48,8 +48,8 @@ const props = defineProps({
   letter-spacing: 2px;
 }
 .split_btn {
-  border: 1px solid var(--color);
-  color: var(--color);
+  border: 1px solid black;
+  color: black;
   padding: 3px 12px 3px 10px;
   font-size: 12px;
   display: flex;

@@ -100,27 +100,7 @@ const state = reactive(
 )
 const store = useStore();
 
-//#region 
-// function DemosticDetail() {
-//     //   if (store.state.demosticDetail) {
-//     //     // 判断本地是否储存了数据
-//     //     getDemosticDetail().then((res) => {
-//     //         console.log(res)
-//     //       // 保存数据到store
-//     //         store.state.demosticDetail = res.data.data.diseaseh5Shelf; 
-//     //         store.state.demosticList = store.state.demosticDetail
-//     //     });
-//     //   } else {
-//     //       state.demosticList = store.state.demosticDetail;
-//     //   }
-//         getDemosticDetail().then((res) => {
-            
-//           // 保存数据到store
-//             store.state.demosticDetail = res.data.data.diseaseh5Shelf; 
-//             store.state.demosticList = store.state.demosticDetail
-//         });  
-// }
-//#endregion 
+
 
 onMounted(async () =>{
     // DemosticDetail(state.demosticList);
@@ -141,11 +121,10 @@ function addCount(val){
     }
 }
 </script>
+
 <style lang="less" scoped>
 
-[v-cloak] {
-display: none;
-}
+
 .reportTable{
     height: 235px;
 }

@@ -130,7 +130,7 @@ onMounted(()=>{
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 2px 15px 1px rgba(0, 0, 0, .08);
-    margin-bottom: var(--marginB);
+    margin-bottom: 20px;
   }
   .table_top{
     width: 100%;
@@ -180,7 +180,7 @@ onMounted(()=>{
     color: hsla(214, 100%, 55%, 0.959);
   }
   .marLeft{
-    margin-left: 1px !important;
+    margin-left: 1px;
   }
   .marBottom{
     margin-bottom: 1px;

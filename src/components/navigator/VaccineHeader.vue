@@ -16,7 +16,7 @@
 
 #VaccineInformation{
   width: 100%;
-  margin-bottom: calc(45px + var(--marginB));
+  margin-bottom: 65px;
   background-color: #fff;
 }
 .vac_top_container{
